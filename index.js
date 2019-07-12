@@ -19,7 +19,7 @@ const getQueList = require('./mesage_modules/getQueList');
 const app = express();
 
 app.get('/', function (req, response) {
-  response.send('G-ABLE LINE API V1.3');
+  response.send('G-ABLE LINE API frok by Pod v.1.1.0');
 });
 
 // webhook callback
