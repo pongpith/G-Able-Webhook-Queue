@@ -1,0 +1,42 @@
+{
+  "name": "g-able-line-bot",
+  "version": "1.0.0",
+  "description": "starter point to create new line bot project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start.dev": "nodemon"
+  },
+  "keywords": [
+    "line",
+    "bot",
+    "messaging-api"
+  ],
+  "author": "Suthinan Musitmani",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.14.12"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^6.8.0",
+    "express": "^4.16.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "string-hex": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potaesm/GAbleBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/potaesm/GAbleBot/issues"
+  },
+  "homepage": "https://github.com/potaesm/GAbleBot#readme"
+}
